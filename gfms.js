@@ -39,6 +39,7 @@ var argv = optimist
     .demand('p')
     .alias('p', 'port')
     .describe('p', 'Port number to listen at.')
+    .default('p', 4367) // 4367 = GFMS in Phone Keypad
     .alias('h', 'host')
     .describe('h', 'Host address to bind to.')
     .default('h', 'localhost')
